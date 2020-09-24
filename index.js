@@ -76,11 +76,11 @@ function writeToFile(fileName, data) {
 // // function to initialize program
 function init() {
 
-  inquirer.prompt([
+  inquirer.prompt(
 
     questions
   
-  ]).then(function(data) {
+  ).then(function(data) {
   
       writeToFile(fileName, data);
     
