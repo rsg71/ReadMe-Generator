@@ -10,8 +10,8 @@ function generateMarkdown(data) {
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
-* [Contributing](#Contributors)
-* [Test](#Test)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
 * [Questions](#Questions)
 
 ## Installation: 
@@ -22,15 +22,21 @@ ${data.usage}
 
 ## License:
  ${data.license}
+ 
+ ![License](https://img.shields.io/static/v1?label=${data.license}&message=license&color=red)
+
+
 
 ## Contributing: 
-${data.contributors}
+${data.contributing}
 
 ## Tests:
  ${data.tests}
 
 ## Questions:
-${data.questions}
+${data.username}
+
+${data.email} - Please contact me with additional questions at this email address
         
 
 `;

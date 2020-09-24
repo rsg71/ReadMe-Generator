@@ -1,32 +1,39 @@
-# a generator
+# a generator for readme/s
          
 
-##  its good
+## Description:
+ it generates a readme
     
 ## Table of Contents: 
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
-* [Contributors](#Contributors)
-* [Tests](#Test)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
 * [Questions](#Questions)
 
 ## Installation: 
-installation if i install
+not sure installation
 
 ## Usage: 
-i worked hard on it
+usage is as follows
 
 ## License:
  Apache 2.0
+ 
+ ![License](https://img.shields.io/static/v1?label=Apache 2.0&message=license&color=red)
 
-## Contributors: 
-me
 
-## Test Run:
+
+## Contributing: 
+Robert (me)
+
+## Tests:
  test
 
 ## Questions:
-no questoins
+rsg71
+
+robert.greenawalt29@gmail.com - Please contact me with additional questions at this email address
         
 
