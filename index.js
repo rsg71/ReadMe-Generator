@@ -12,7 +12,7 @@ inquirer.prompt([
   {
     type: "input",
     name: "##description",
-    message: "What is a description of your project?",
+    message: "Please write a short description of your project?",
     
   },
   {
@@ -30,11 +30,12 @@ inquirer.prompt([
   {
     type: "list",
     name: "##license",
-    message: "What is the license?",
+    message: "What kind of license should your project have?",
     choices: [
       "Apache 2.0",
-      "MIT",
-      "Mozilla Public License 2.0"
+      "GPL 3.0",
+      "BSD 3",
+      "None"
     ]
     
   },
@@ -47,7 +48,7 @@ inquirer.prompt([
   {
     type: "input",
     name: "##test",
-    message: "What is a test?",
+    message: "What command should be run to run tests?",
     
   },
   {
@@ -59,7 +60,7 @@ inquirer.prompt([
 ]).then(function(data) {
 
 
-  fs.writeFile("newreadme.json", JSON.stringify(data, null, '\t'), function(err) {
+  fs.writeFile("newreadme.md", JSON.stringify(data, null, '\n'), function(err) {
 
     if (err) {
       return console.log(err);

@@ -1,0 +1,10 @@
+{
+	"#title": "idk",
+	"##description": "its good",
+	"##installation": "housecall",
+	"##usage": "non",
+	"##license": "BSD 3",
+	"##contributors": "me",
+	"##test": "npm test",
+	"##questions": "none"
+}
