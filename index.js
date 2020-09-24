@@ -41,13 +41,13 @@ const questions = [{
 },
 {
   type: "input",
-  name: "contributors",
+  name: "contributing",
   message: "Who contributed?",
   
 },
 {
   type: "input",
-  name: "test",
+  name: "tests",
   message: "What command should be run to run tests?",
   
 },
