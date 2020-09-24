@@ -1,1 +1,0 @@
-{"title":"a","description":"b","installation":"c","usage":"d","license":"e","contributors":"f","test":"g","questions":"e"}

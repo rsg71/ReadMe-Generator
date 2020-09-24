@@ -6,55 +6,60 @@ var fs = require('fs');
 inquirer.prompt([
   {
     type: "input",
-    name: "title",
+    name: "#title",
     message: "What is the type of your project?"
   },
   {
     type: "input",
-    name: "description",
+    name: "##description",
     message: "What is a description of your project?",
     
   },
   {
     type: "input",
-    name: "installation",
+    name: "##installation",
     message: "What is your installation?",
     
   },
   {
     type: "input",
-    name: "usage",
+    name: "##usage",
     message: "What is your usage?",
     
   },
   {
-    type: "input",
-    name: "license",
+    type: "list",
+    name: "##license",
     message: "What is the license?",
+    choices: [
+      "Apache 2.0",
+      "MIT",
+      "Mozilla Public License 2.0"
+    ]
     
   },
   {
     type: "input",
-    name: "contributors",
+    name: "##contributors",
     message: "Who contributed?",
     
   },
   {
     type: "input",
-    name: "test",
+    name: "##test",
     message: "What is a test?",
     
   },
   {
     type: "input",
-    name: "questions",
+    name: "##questions",
     message: "what questions did you have?"
   }
   
 ]).then(function(data) {
 
 
-  fs.writeFile("generate.json", JSON.stringify(data), function(err) {
+  fs.writeFile("newreadme.json", JSON.stringify(data, null, '\t'), function(err) {
 
     if (err) {
       return console.log(err);

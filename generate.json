@@ -1,1 +1,10 @@
-{"title":"b","description":"n","installation":"m","usage":"q","license":"w","contributors":"e","test":"r","questions":"t"}
+{
+	"#title": "u",
+	"##description": "u",
+	"##installation": "u",
+	"##usage": "i",
+	"##license": "MIT",
+	"##contributors": "me",
+	"##test": "no",
+	"##questions": "none"
+}
