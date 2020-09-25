@@ -17,29 +17,30 @@ function generateMarkdown(data) {
 * [Questions](#Questions)
 
 ## Installation: 
+
+### To install necessary dependencies, run the following command:
+
 ${data.installation}
 
 ## Usage: 
 ${data.usage}
 
 ## License:
-
  ${data.license}
-
-
-
 
 
 ## Contributing: 
 ${data.contributing}
 
 ## Tests:
+
+### To run tests, run the following command:
  ${data.tests}
 
 ## Questions:
 github.com/${data.username}
 
-${data.email} - Please contact me with additional questions at this email address
+${data.email} - Please contact me at this email address with additional questions
         
 
 `;

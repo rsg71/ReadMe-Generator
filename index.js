@@ -22,19 +22,20 @@ const questions = [{
 {
   type: "input",
   name: "description",
-  message: "Please write a short description of your project?",
+  message: "Please write a short description of your project",
   
 },
 {
   type: "input",
   name: "installation",
-  message: "What is your installation?",
+  message: "Please write a short description of the installation",
+  default: "npm install"
   
 },
 {
   type: "input",
   name: "usage",
-  message: "What is your usage?",
+  message: "Please describe the usage information",
   
 },
 {
@@ -47,18 +48,18 @@ const questions = [{
     "BSD3",
     "None"
   ]
-  
 },
 {
   type: "input",
   name: "contributing",
-  message: "Who contributed to this project?",
+  message: "What does the user need to know about contribution?",
   
 },
 {
   type: "input",
   name: "tests",
   message: "What command should be run to run tests?",
+  default: "npm test"
   
 },
 {
@@ -66,13 +67,12 @@ const questions = [{
   name: "questions",
   message: "what questions did you have?"
 }
-
 ];
 
 var fileName = "newreadme.md";
 // // function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile("newreadme.md", generateMarkdown(data), function(err) {
+  fs.writeFile(fileName, generateMarkdown(data), function(err) {
   
     if (err) {
       return console.log(err);
