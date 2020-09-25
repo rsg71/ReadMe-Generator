@@ -2,9 +2,11 @@
 function generateMarkdown(data) {
   return `# ${data.title}
          
+  ![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-yellow.svg)
 
 ## Description:
  ${data.description}
+
     
 ## Table of Contents: 
 * [Installation](#Installation)
@@ -21,9 +23,10 @@ ${data.installation}
 ${data.usage}
 
 ## License:
+
  ${data.license}
- 
- ![License](https://img.shields.io/static/v1?label=${data.license}&message=license&color=red)
+
+
 
 
 
@@ -34,7 +37,7 @@ ${data.contributing}
  ${data.tests}
 
 ## Questions:
-${data.username}
+github.com/${data.username}
 
 ${data.email} - Please contact me with additional questions at this email address
         

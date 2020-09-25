@@ -1,8 +1,10 @@
-# a generator for readme/s
+# a
          
+  ![License: Apache2.0](https://img.shields.io/badge/License-Apache2.0-yellow.svg)
 
 ## Description:
- it generates a readme
+ b
+
     
 ## Table of Contents: 
 * [Installation](#Installation)
@@ -13,26 +15,27 @@
 * [Questions](#Questions)
 
 ## Installation: 
-not sure installation
+f
 
 ## Usage: 
-usage is as follows
+c
 
 ## License:
- Apache 2.0
- 
- ![License](https://img.shields.io/static/v1?label=Apache 2.0&message=license&color=red)
+
+ Apache2.0
+
+
 
 
 
 ## Contributing: 
-Robert (me)
+b
 
 ## Tests:
- test
+ a
 
 ## Questions:
-rsg71
+github.com/rsg71
 
 robert.greenawalt29@gmail.com - Please contact me with additional questions at this email address
         
