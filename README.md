@@ -21,6 +21,11 @@ This readme generator will take inputs from the command line in the terminal and
 <img src="imgs/gif2.gif">
 
 
+Sample of a readme generated: 
+
+<img src="imgs/Generated_Readme_Sample.PNG">
+
+
 
 ## Credits
 * Robert Greenawalt (https://github.com/rsg71)
