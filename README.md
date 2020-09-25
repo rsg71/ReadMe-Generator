@@ -3,7 +3,7 @@
 
 ## Description
 
-
+This readme generator will take inputs from the command line in the terminal and automatically produce a readme file for the user. The user is taken through several prompts such as the usage instructions, license choice, a description of the project, etc. and this information is conveniently placed on the newly generated readme.
 
 ## Table of Contents
 
